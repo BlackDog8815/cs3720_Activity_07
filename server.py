@@ -10,7 +10,7 @@ load_dotenv()
 
 # --- Read variables from .env ---
 MONGODB_URI = os.getenv("MONGODB_URI")
-MONGODB_DB = os.getenv("MONGODB_DB", "cs3720db")
+MONGODB_DB = os.getenv("MONGODB_DB", "cs3720")
 PORT = int(os.getenv("PORT", "8000"))
 
 if not MONGODB_URI:
